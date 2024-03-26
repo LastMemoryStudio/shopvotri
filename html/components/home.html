@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.0/css/bulma.min.css" integrity="sha512-+oEiKVGJRHutsibRYkkTIfjI0kspDtgJtkIlyPCNTCFCdhy+nSe25nvrCw7UpHPwNbdmNw9AkgGA+ptQxcjPug==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link
+        href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class=" ">
+    <!-- nav -->
+    <nav class=" flex  flex-col justify-center md:w-[100vw]  bg-blue-500">
+        <div class=" flex flex-col md:flex-row justify-center  border-y-2">
+            <div class="flex md:w-[90%] p-2 flex-col md:flex-row justify-between  md:items-center 	">
+                <div class="items-center md:justify-between jun flex text-white p-4 ">
+                    <div class="img">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/files/logo9_145x@2x.png?v=1690360964"
+                            class="md:w-[145px] md:h-[44.929577464788736px] " alt="">
+                    </div>
+                </div>
+                <div class="input flex  justify-between  bg-white rounded">
+                    <div class="border-2 flex ">
+                        <div class="px-6 py-2">
+                            <select class="md:w-[5vw] w-[2vw] border-r-2 text-black " name="product_type">
+                                <option value="r32r">binhan</option>
+                                <option value="Accessories">Accessories</option>
+                            </select>
+                        </div>
+                        <div class="p-2">
+                            <input type="text" class="w-[20vw] overscroll-none text-black" style="outline: none;"
+                                placeholder="tim dfaedfaed">
+                        </div>
+                    </div>
+                    <button class="w-[7vw] px-6 py-2 border-blue-600 bg-blue-300 text-white  rounded-r ">
+                        Seach
+                    </button>
+                </div>
+                <div class="flex text-white justify-between items-center w-[16vw] hidden md:inline-flex">
+                    <div class="flex  items-center ">
+                        <i class="fa-regular fa-user text-3xl mr-2"></i>
+                        <div class="flex flex-col">
+                            <span class="text">Login</span>
+                            <span class="b">Account</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-heart  text-3xl"></i>
+                    </div>
+                    <div class="flex text-white  items-center">
+                        <div class="flex  items-center ">
+                            <i class="fa-sharp fa-light fa-cart-shopping"></i>
+                            <div class="flex flex-col justify-end  items-center">
+                                <span class="text">Your Cart </span>
+                                <span class="js-total-price"> $28.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="md:w-full hidden  md:inline-flex flex text-white font-bold items-center justify-center p-5  ">
+            <div class=" w-[90%]  ">
+                <div class="flex  justify-between mr-30">
+                    <div class="flex items-center  justify-start ">
+                        <span class="icon-left mr-2">
+                            <i class="fa-regular fa-bars"></i>
+                        </span>
+                        <span class="title">Browse All Categories</span>
+                    </div>
+                    <div class=" flex md:mr-[106px]  ">
+                        <a class="border-l-2 px-2 flex items-center" href="">
+                            Home
+                            <i class="fa-solid fa-sort-down px-2 "></i>
+                        </a>
+                        <a class="px-2 flex items-center" href="">
+                            shop
+                            <i class="fa-solid fa-sort-down px-2 "></i>
+                        </a>
+                        <a class="px-2 flex items-center" href="">
+                            Product
+                            <i class="fa-solid fa-sort-down px-2 "></i>
+                        </a>
+                        <a class="px-2 flex items-center" href="">
+                            Pages
+                            <i class="fa-solid fa-sort-down px-2 "></i>
+                        </a>
+                        <a class="px-2 flex items-center" href="">
+                            Contact Us
+                            <i class="fa-solid fa-sort-down px-2  "></i>
+                        </a>
+                        <a class="px-2 flex items-center text-blue-300" href="">
+                            Buy Uminex!
+
+                        </a>
+                    </div>
+                    <div class="  flex justify-end">
+                        <p><a class="ml-[100px]" title="Sale">Sale $20 Off Your First Order.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- img -->
+    <div class="flex     md:fex-row mt-8 justify-center ">
+        <div class="flex w-[90%] items-center  justify-between  ">
+            <div class=" w-[64%] h-[35vw] rounded-2xl">
+                <swiper-container class="mySwiper " navigation="true" pagination="true" keyboard="true"
+                    mousewheel="true" css-mode="true">
+                    <swiper-slide class="w-full bg-center pl-[10vw] flex justify-start bg-cover  rounded-2xl"
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/banner_9_3.jpg?v=1690362130&width=2000);">
+                        <div class="flex flex-col h-[50%]">
+                            <div class="flex flex-col justify-between h-full">
+                                <div class="flex flex-col h-[60%]">
+                                    <div class="flex binhan">
+                                        <span class="text-xl mr-2">
+                                            Top
+                                        </span>
+                                        <span class="text-xl">
+                                            Trending
+                                        </span>
+                                    </div>
+                                    <div class="text-white flex justify-start">
+                                        <span class="text-5xl">
+                                            Cellphone
+                                        </span>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="binhan">
+                                            <span class="first text-5xl mr-2">
+                                                25MP
+                                            </span>
+                                        </div>
+                                        <div class=" text-5xl text-white ">
+                                            <span class="">
+                                                Pro
+                                            </span>
+                                            <span class="">
+                                                Camera
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="text-white mt-2 flex justify-start">
+                                        Perfect. Level Up Your Productivity.
+                                    </div>
+                                </div>
+                                <div class="w-full  flex  justify-start text-white  ">
+                                    <button class="rounded-3xl bg-blue-200 p-3 w-[40%] font-bold">Shop Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide
+                        style="background-image:url(https://demo-uminex.myshopify.com/cdn/shop/files/banner_9_1.jpg?v=1690362130&width=750);"
+                        class="w-full bg-center pl-[10vw] flex justify-start  bg-cover  rounded-2xl">
+                        <div class="flex flex-col h-[50%]">
+                            <div class="flex flex-col justify-between  h-[100%]">
+                                <div class="flex flex-col h-[60%]">
+                                    <div class="flex binhan">
+                                        <span class="text-xl mr-2">
+                                            Top
+                                        </span>
+                                        <span class="text-xl">
+                                            Trending
+                                        </span>
+                                    </div>
+                                    <div class="text-white flex justify-start">
+                                        <span class="text-5xl">
+                                            Trending
+                                        </span>
+                                    </div>
+                                    <div class="flex">
+                                        <di class="binhan">
+                                            <span class="first text-5xl mr-2">
+                                                Your
+                                            </span>
+                                        </di>
+                                        <div class=" text-5xl text-white ">
+                                            <span class="">
+                                                New
+                                            </span>
+                                            <span class="">
+                                                Stype
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="text-white mt-2 flex justify-start">
+                                        Limited Time: Online Only!
+                                    </div>
+                                </div>
+                                <div class="w-full  flex  justify-start text-white  ">
+                                    <button class="rounded-3xl bg-blue-300 p-3 w-[40%] font-bold">Shop Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+            <div class="flex  flex-col w-[34%] h-[35vw] justify-between  rounded-2xl">
+                <div class="flex justify-start h-[16.5vw] bg-blue-200 w-full rounded-2xl bg-center bg-cover"
+                    style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/img_9_1.jpg?v=1690361674&width=2000);">
+                    <div class="flex justify-start md:pt-[2vw] md:pl-[4vw] ">
+                        <div class=" flex flex-col text-white ">
+                            <div class="font-normal text-4xl">
+                                Canyon
+                            </div>
+                            <div class="font-normal text-4xl">
+                                Star Raider
+                            </div>
+                            <div class="font-normal text-sm ">
+                                Headphone & Audio
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex  justify-start h-[16.5vw] bg-blue-300 bg-center bg-cover  rounded-2xl"
+                    style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/img_9_2.jpg?v=1690361674&width=2000);">
+                    <div class="flex justify-start md:pt-[4vw] md:pl-[4vw] ">
+                        <div class=" flex flex-col text-white ">
+                            <div class="font-normal text-4xl">
+                                Canyon
+                            </div>
+                            <div class="font-normal text-4xl">
+                                Star Raider
+                            </div>
+                            <div class="font-normal text-sm">
+                                Headphone & Audio
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HOT TRENDING PRODUCTS -->
+    <div class="flex md:h-[30vw] flex-col mt-5">
+        <div class="flex w-full justify-center ">
+            <div class=" w-[90%] p-2 flex  justify-between ">
+                <span class="text-xl  font-semibold	 text-black">HOT TRENDING PRODUCTS</span>
+                <div class="flex ">
+                    <span class="text-xl font-normal	 text-gray-500">View All Products ></span>
+                </div>
+            </div>
+        </div>
+        <div class="flex  md:h-[30vw] w-full justify-center py-8">
+            <div class="w-[90%] grid grid-cols-6 gap-4">
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_19_1.jpg?v=1672303733&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">MacBook Air M1 2020 8GB 256GB/7-Core GPU</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-2 p-2 rounded-xl ml-5">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- POPULAR CATEGORIES -->
+    <div class="w-full flex justify-center mt-5">
+        <div class="w-[90%] md:h-[10vw]">
+            <span class="text-xl font-semibold text-black">POPULAR CATEGORIES</span>
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+
+                <div class="flex py-6">
+                    <div class=" h-[5vw] bg-red-100 flex w-[14vw] rounded-lg bg-center bg-cover "
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/col_9_1.jpg?v=1690364742&width=2000 );">
+                        <img class="" src="" alt="">
+                        <div class="flex flex-col py-6 px-12 		 text-white">
+                            <a class="text-xl font-medium	" href="">
+                                Macbook/PCs
+                            </a>
+                            <span class="text-lg">
+                                13 Products
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex py-6">
+                    <div class=" h-[5vw] bg-red-100 flex w-[14.5vw] rounded-lg bg-center bg-cover "
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/col_9_2.jpg?v=1690367020&width=2000);">
+                        <img class="" src="" alt="">
+                        <div class="flex flex-col py-6 px-9 		 text-white">
+                            <a class="text-xl font-medium	" href="">
+                                OLED/Smart TVs
+                            </a>
+                            <span class="text-lg">
+                                15 Products
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex py-6">
+                    <div class=" h-[5vw] bg-red-100 flex w-[14.5vw] rounded-lg bg-center bg-cover "
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/col_9_2.jpg?v=1690367020&width=2000);">
+                        <img class="" src="" alt="">
+                        <div class="flex flex-col py-6 px-9 		 text-white">
+                            <a class="text-xl font-medium	" href="">
+                                OLED/Smart TVs
+                            </a>
+                            <span class="text-lg">
+                                15 Products
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex py-6">
+                    <div class=" h-[5vw] bg-red-100 flex w-[14.5vw] rounded-lg bg-center bg-cover "
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/col_9_2.jpg?v=1690367020&width=2000);">
+                        <img class="" src="" alt="">
+                        <div class="flex flex-col py-6 px-9 		 text-white">
+                            <a class="text-xl font-medium	" href="">
+                                OLED/Smart TVs
+                            </a>
+                            <span class="text-lg">
+                                15 Products
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex py-6">
+                    <div class=" h-[5vw] bg-red-100 flex w-[14.5vw] rounded-lg bg-center bg-cover "
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/col_9_2.jpg?v=1690367020&width=2000);">
+                        <img class="" src="" alt="">
+                        <div class="flex flex-col py-6 px-9 		 text-white">
+                            <a class="text-xl font-medium	" href="">
+                                OLED/Smart TVs
+                            </a>
+                            <span class="text-lg">
+                                15 Products
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex py-6">
+                    <div class=" h-[5vw] bg-red-100 flex w-[14.5vw] rounded-lg bg-center bg-cover "
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/col_9_2.jpg?v=1690367020&width=2000);">
+                        <img class="" src="" alt="">
+                        <div class="flex flex-col py-6 px-9 		 text-white">
+                            <a class="text-xl font-medium	" href="">
+                                OLED/Smart TVs
+                            </a>
+                            <span class="text-lg">
+                                15 Products
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- HOT DEALS! GET OUR BEST PRICES -->
+    <div class="w-full flex justify-center py-8">
+        <div class="flex flex-col  w-[90%]">
+            <div class="flex flex-col ">
+                <div class="flex justify-between items-center">
+                    <div class="flex ">
+                        <span class="text-xl  text-blue-300 font-semibold">
+                            <i class="fa-solid fa-alarm-clock"></i>
+                            HOT DEALS!
+                        </span>
+                        <span class="ml-2 text-xl ">
+                            GET OUR BEST PRICES
+                        </span>
+                    </div>
+                    <div class="flex items-center ">
+                        <span class="text-gray-400 mr-2 text-xl">
+                            Hurry up! Offer ends in:
+                        </span>
+                        <div class="flex text-white">
+                            <div class="bg-red-500 px-4 py-2 font-normal text-xl	">
+                                00
+                            </div>
+                            <div class="bg-red-500 px-4 py-2 ml-2 font-normal text-xl	">
+                                00
+                            </div>
+                            <div class="bg-red-500 px-4 py-2 ml-2 font-normal text-xl 	">
+                                12
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-5 grid grid-cols-6 gap-4">
+                    <div class="border-2 p-2 rounded-xl">
+                        <div class="w-full h-[200px] ">
+                            <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col pt-[50px]  ">
+                            <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                            <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                                $848.00
+                            </div>
+                            <div class="flex items-center text-red-500 text-sm ">
+                                <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <div class="flex mt-3 ">
+                                <span class="text-gray-400 text-xl	font-medium	mr-2">Sold</span>
+                                <span class=" text-xl font-medium	">55/100</span>
+                                <span class="text-gray-400 text-xl	font-medium	ml-2">san pham</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 p-2 rounded-xl">
+                        <div class="w-full h-[200px] ">
+                            <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col pt-[50px]  ">
+                            <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                            <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                                $848.00
+                            </div>
+                            <div class="flex items-center text-red-500 text-sm ">
+                                <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <div class="flex mt-3 ">
+                                <span class="text-gray-400 text-xl	font-medium	mr-2">Sold</span>
+                                <span class=" text-xl font-medium	">55/100</span>
+                                <span class="text-gray-400 text-xl	font-medium	ml-2">san pham</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 p-2 rounded-xl">
+                        <div class="w-full h-[200px] ">
+                            <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col pt-[50px]  ">
+                            <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                            <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                                $848.00
+                            </div>
+                            <div class="flex items-center text-red-500 text-sm ">
+                                <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <div class="flex mt-3 ">
+                                <span class="text-gray-400 text-xl	font-medium	mr-2">Sold</span>
+                                <span class=" text-xl font-medium	">55/100</span>
+                                <span class="text-gray-400 text-xl	font-medium	ml-2">san pham</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 p-2 rounded-xl">
+                        <div class="w-full h-[200px] ">
+                            <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col pt-[50px]  ">
+                            <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                            <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                                $848.00
+                            </div>
+                            <div class="flex items-center text-red-500 text-sm ">
+                                <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <div class="flex mt-3 ">
+                                <span class="text-gray-400 text-xl	font-medium	mr-2">Sold</span>
+                                <span class=" text-xl font-medium	">55/100</span>
+                                <span class="text-gray-400 text-xl	font-medium	ml-2">san pham</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 p-2 rounded-xl">
+                        <div class="w-full h-[200px] ">
+                            <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col pt-[50px]  ">
+                            <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                            <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                                $848.00
+                            </div>
+                            <div class="flex items-center text-red-500 text-sm ">
+                                <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <div class="flex mt-3 ">
+                                <span class="text-gray-400 text-xl	font-medium	mr-2">Sold</span>
+                                <span class=" text-xl font-medium	">55/100</span>
+                                <span class="text-gray-400 text-xl	font-medium	ml-2">san pham</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 p-2 rounded-xl">
+                        <div class="w-full h-[200px] ">
+                            <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col pt-[50px]  ">
+                            <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                            <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star mr-2"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                                $848.00
+                            </div>
+                            <div class="flex items-center text-red-500 text-sm ">
+                                <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <div class="flex mt-3 ">
+                                <span class="text-gray-400 text-xl	font-medium	mr-2">Sold</span>
+                                <span class=" text-xl font-medium	">55/100</span>
+                                <span class="text-gray-400 text-xl	font-medium	ml-2">san pham</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col h-[30vw] w-full py-8 ">
+                <div class="flex">
+                    <div class="h-[10vw] bg-center bg-cover  w-[30vw] rounded-xl"
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/8_1_540x.jpg?v=1690278646);">
+                        <div class="justify-center flex mr-[10vw] py-[3vw]  ">
+                            <div class="flex flex-col rounded-xl  ">
+                                <div class="flex-flex-col font-medium	 ">
+                                    <div class="text-white text-2xl">
+                                        Gamepad
+                                    </div>
+                                    <div class="flex items-center mt-2 text-2xl	">
+                                        <div class="binhan1 text-2xl	">
+                                            Save 20%
+                                        </div>
+                                        <div class="ml-2 text-white">
+                                            Product
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 text-white text-sm ">
+                                    Free Shipping 20km Radius
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-[10vw] bg-center bg-cover  w-[30vw] rounded-xl ml-4"
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/8_2_540x.jpg?v=1690278646);">
+                        <div class="justify-center flex mr-[10vw] py-[3vw]  ">
+                            <div class="flex flex-col rounded-xl  ">
+                                <div class="flex-flex-col font-medium	 ">
+                                    <div class="text-white text-2xl">
+                                        Gamepad
+                                    </div>
+                                    <div class="flex items-center mt-2 text-2xl	">
+                                        <div class="binhan1 text-2xl	">
+                                            Save 20%
+                                        </div>
+                                        <div class="ml-2 text-white">
+                                            Product
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 text-white text-sm ">
+                                    Free Shipping 20km Radius
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-[10vw] bg-center bg-cover  w-[30vw] rounded-xl ml-4"
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/8_3_540x.jpg?v=1690278646);">
+                        <div class="justify-center flex mr-[10vw] py-[3vw]  ">
+                            <div class="flex flex-col rounded-xl  ">
+                                <div class="flex-flex-col font-medium	 ">
+                                    <div class="text-white text-2xl">
+                                        Gamepad
+                                    </div>
+                                    <div class="flex items-center mt-2 text-2xl	">
+                                        <div class="binhan1 text-2xl	">
+                                            Save 20%
+                                        </div>
+                                        <div class="ml-2 text-white">
+                                            Product
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 text-white text-sm ">
+                                    Free Shipping 20km Radius
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-5">
+                    <div class="h-[15vw] w-[45vw] bg-center bg-cover  w-[30vw] rounded-xl"
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/8_4_900x.jpg?v=1690278646);">
+                        <div class="justify-center flex mr-[10vw] py-[3vw]  ">
+                            <div class="flex flex-col rounded-xl  ">
+                                <div class="flex-flex-col font-medium	 ">
+                                    <div class="text-white text-2xl">
+                                        Bestseller
+                                    </div>
+                                    <div class="flex items-center mt-2 text-2xl	">
+                                        <div class="binhan1 text-2xl	">
+                                            Save 20%
+                                        </div>
+                                        <div class="ml-2 text-white">
+                                            Product
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 text-white text-sm ">
+                                    Free Shipping 20km Radius
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-[15vw] w-[45vw] bg-center bg-cover  w-[30vw] rounded-xl ml-4"
+                        style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/8_5_900x.jpg?v=1690278646);">
+                        <div class="justify-center flex mr-[10vw] py-[3vw]  ">
+                            <div class="flex flex-col rounded-xl  ">
+                                <div class="flex-flex-col font-medium	 ">
+                                    <div class="text-white text-2xl">
+                                        Gamepad
+                                    </div>
+                                    <div class="flex items-center mt-2 text-2xl	">
+                                        <div class="binhan1 text-2xl	">
+                                            Save 20%
+                                        </div>
+                                        <div class="ml-2 text-white">
+                                            Product
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 text-white text-sm ">
+                                    Free Shipping 20km Radius
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TOP SELLING PRODUCTS -->
+    <div class="flex flex-col py-8 ">
+        <div class="flex w-full justify-center ">
+            <div class=" w-[90%] p-2 flex  justify-between ">
+                <span class="text-xl  font-semibold	 text-black">TOP SELLING PRODUCTS </span>
+                <div class="flex ">
+                    <span class="text-xl font-normal text-blue-400 p-2">All Products</span>
+                    <span class="text-xl font-normal text-gray-400 p-2">Smartphone</span>
+                    <span class="text-xl font-normal text-gray-400 p-2">iPad</span>
+                </div>
+            </div>
+        </div>
+        <div class="flex w-full justify-center my-5">
+            <div class="w-[90%] grid grid-cols-6 gap-4">
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_19_1.jpg?v=1672303733&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">MacBook Air M1 2020 8GB 256GB/7-Core GPU</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4">
+        <div class="flex bg-blue-500 py-8">
+        </div>
+    </div>
+    <!--RECOMMENDED FOR YOU-->
+    <div class="flex  md:h-[30vw] flex-col mt-5">
+        <div class="flex w-full justify-center ">
+            <div class=" w-[90%] p-2 flex  justify-between ">
+                <span class="text-xl  font-semibold	 text-black">RECOMMENDED FOR YOU</span>
+            </div>
+        </div>
+        <div class="flex  md:h-[30vw] w-full justify-center py-8  ">
+            <div class="w-[90%] grid grid-cols-6 gap-4">
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_19_1.jpg?v=1672303733&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">MacBook Air M1 2020 8GB 256GB/7-Core GPU</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 p-2 rounded-xl">
+                    <div class="w-full h-[200px] ">
+                        <img src="https://demo-uminex.myshopify.com/cdn/shop/products/products_33_2.jpg?v=1678075353&width=360"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col pt-[50px]  ">
+                        <span class="text-lg font-medium">Stainless Steel Case with Braided Solo Loop</span>
+                        <div class="flex items-center text-yellow-400  mt-2 mb-2">
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star mr-2"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-blue-500 text-xl  font-normal  mb-1    ">
+                            $848.00
+                        </div>
+                        <div class="flex items-center text-red-500 text-sm ">
+                            <i class="fa-duotone fa-check mr-2"></i>
+                            Out of Stock
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex  md:h-[30vw] flex-col py-8 ">
+        <div class="flex w-full justify-center ">
+            <div class=" w-[90%] p-2 flex  justify-between ">
+                <span class="text-xl  font-semibold	 text-black">
+                    BLOG POSTS
+                </span>
+            </div>
+        </div>
+        <div class="flex w-full justify-center">
+            <div class=" w-[90%] py-8 ">
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="flex flex-col">
+                        <img class="w-[400px]"
+                            src="https://demo-uminex.myshopify.com/cdn/shop/articles/10_cc1abdba-a10a-4889-8b57-88133851a0ba_360x.png?v=1677830513"
+                            alt="">
+                        <div class="p-4 drop-shadow bg-white">
+                            <div class="flex flex-col">
+                                <a class="text-blue-400 text-2xl	" href="">Technology</a>
+                                <a class="text-black text-2xl" href="">The Smartphone Has Just Launched in Sep 2022</a>
+                            </div>
+                            <div class="mb-2">
+                                <div class="text-gray-500">Post by ALO Support</div>
+                            </div>
+                            <div class="main-info-post mb-2">
+                                <div class="text-gray-500 ">
+                                    <p>iPad Pro is the fastest device of its kind. It’s designed to take full advantage...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-between py-4 border-t-2 mt-2">
+                                <a class="text-xl" href="" title="The Smartphone Has Just Launched in Sep 2022" tabindex="0">
+                                  Read more
+                                </a>
+                                <div class="text-xl">
+                                  <span class="month">Mar</span>,
+                                  <span class="day">03</span>
+                                  <span class="year">2023</span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <img class="w-[400px]"
+                            src="https://demo-uminex.myshopify.com/cdn/shop/articles/10_cc1abdba-a10a-4889-8b57-88133851a0ba_360x.png?v=1677830513"
+                            alt="">
+                        <div class="p-4 drop-shadow bg-white">
+                            <div class="flex flex-col">
+                                <a class="text-blue-400 text-2xl	" href="">Technology</a>
+                                <a class="text-black text-2xl" href="">The Smartphone Has Just Launched in Sep 2022</a>
+                            </div>
+                            <div class="mb-2">
+                                <div class="text-gray-500">Post by ALO Support</div>
+                            </div>
+                            <div class="main-info-post mb-2">
+                                <div class="text-gray-500 ">
+                                    <p>iPad Pro is the fastest device of its kind. It’s designed to take full advantage...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-between py-4 border-t-2 mt-2">
+                                <a class="text-xl" href="" title="The Smartphone Has Just Launched in Sep 2022" tabindex="0">
+                                  Read more
+                                </a>
+                                <div class="text-xl">
+                                  <span class="month">Mar</span>,
+                                  <span class="day">03</span>
+                                  <span class="year">2023</span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <img class="w-[400px]"
+                            src="https://demo-uminex.myshopify.com/cdn/shop/articles/10_cc1abdba-a10a-4889-8b57-88133851a0ba_360x.png?v=1677830513"
+                            alt="">
+                        <div class="p-4 drop-shadow bg-white">
+                            <div class="flex flex-col">
+                                <a class="text-blue-400 text-2xl	" href="">Technology</a>
+                                <a class="text-black text-2xl" href="">The Smartphone Has Just Launched in Sep 2022</a>
+                            </div>
+                            <div class="mb-2">
+                                <div class="text-gray-500">Post by ALO Support</div>
+                            </div>
+                            <div class="main-info-post mb-2">
+                                <div class="text-gray-500 ">
+                                    <p>iPad Pro is the fastest device of its kind. It’s designed to take full advantage...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-between py-4 border-t-2 mt-2">
+                                <a class="text-xl" href="" title="The Smartphone Has Just Launched in Sep 2022" tabindex="0">
+                                  Read more
+                                </a>
+                                <div class="text-xl">
+                                  <span class="month">Mar</span>,
+                                  <span class="day">03</span>
+                                  <span class="year">2023</span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <img class="w-[400px]"
+                            src="https://demo-uminex.myshopify.com/cdn/shop/articles/11_f093b36c-8dc6-4a65-b57c-b1f4a2f9eee2_360x.png?v=1677830460"
+                            alt="">
+                        <div class="p-4 drop-shadow bg-white">
+                            <div class="flex flex-col">
+                                <a class="text-blue-400 text-2xl	" href="">Technology</a>
+                                <a class="text-black text-2xl" href="">The Smartphone Has Just Launched in Sep 2022</a>
+                            </div>
+                            <div class="mb-2">
+                                <div class="text-gray-500">Post by ALO Support</div>
+                            </div>
+                            <div class="main-info-post mb-2">
+                                <div class="text-gray-500 ">
+                                    <p>iPad Pro is the fastest device of its kind. It’s designed to take full advantage...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-between py-4 border-t-2 mt-2">
+                                <a class="text-xl" href="" title="The Smartphone Has Just Launched in Sep 2022" tabindex="0">
+                                  Read more
+                                </a>
+                                <div class="text-xl">
+                                  <span class="month">Mar</span>,
+                                  <span class="day">03</span>
+                                  <span class="year">2023</span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .binhan {
+        color: #ffe603;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 0;
+        line-height: 15px;
+        font-size: 12px;
+        color: #ffe603;
+        font-weight: 700;
+    }
+
+    .binhan1 {
+        color: #ffe603;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 0;
+        line-height: 15px;
+        color: #ffe603;
+        font-weight: 700;
+    }
+
+    swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+
+    const swiperEl = document.querySelector("swiper-container");
+    swiperEl.addEventListener("autoplaytimeleft", (e) => {
+        const [swiper, time, progress] = e.detail;
+        progressCircle.style.setProperty("--progress", 1 - progress);
+        progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    });
+</script>
+
+</html>
