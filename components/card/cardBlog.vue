@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col">
+	<div class="flex flex-col card-blog overflow-hidden">
 		<img class="w-[400px]" src="https://demo-uminex.myshopify.com/cdn/shop/articles/10_cc1abdba-a10a-4889-8b57-88133851a0ba_360x.png?v=1677830513" alt="">
 		<div class="p-4 drop-shadow bg-white">
 			<div class="flex flex-col">
@@ -28,3 +28,13 @@
 		</div>
 	</div>
 </template>
+
+<style>
+.card-blog img {
+  transition: transform 0.3s ease;
+}
+
+.card-blog:hover img {
+  transform: scale(1.1);
+}
+</style>

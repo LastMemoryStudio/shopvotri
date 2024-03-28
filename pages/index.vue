@@ -4,14 +4,17 @@
         <Banner/>
 
         <!-- HOT TRENDING PRODUCTS -->
-        <div class="flex md:h-[30vw] flex-col mt-5">
+        <div class="flex flex-col mt-5">
             <div class="flex w-full justify-center">
-                <div class="w-full md:w-[90%] p-2 flex justify-between">
+                <div class="w-full md:w-[90%] p-2 flex justify-between items-center">
                     <span class="text-md md:text-xl font-semibold text-black">HOT TRENDING PRODUCTS</span>
-                    <span class="text-md md:text-xl font-normal text-gray-500">Xem thêm ></span>
+                    <div class="text-md md:text-md font-normal text-gray-500 flex items-center cursor-pointer">
+                        <p>Xem thêm</p>
+                        <i class="fa-solid fa-caret-right ml-1"></i>
+                    </div>
                 </div>
             </div>
-            <div class="flex md:h-[30vw] w-full justify-center my-5">
+            <div class="flex w-full justify-center my-5">
                 <div class="px-2 md:w-[90%] grid grid-cols-2 md:grid-cols-6 gap-4">
                     <CardProduct v-for="i in 6" :key="i"/>
                 </div>
@@ -111,20 +114,20 @@
             </div>
         </div>
 
-    <div class="flex  md:h-[30vw] flex-col mt-5">
+    <div class="flex flex-col mt-5">
         <div class="flex w-full justify-center ">
-            <div class="w-[95%] md:w-[90%] p-2 flex justify-between ">
+            <div class="w-[95%] md:w-[90%] p-2 flex justify-between">
                 <span class="text-xl  font-semibold	 text-black">RECOMMENDED FOR YOU</span>
             </div>
         </div>
-        <div class="flex md:h-[30vw] w-full justify-center py-8  ">
+        <div class="flex w-full justify-center py-8 ">
             <div class="w-[95%] md:w-[90%] grid grid-cols-2 md:grid-cols-6 gap-4">
                 <CardProduct v-for="i in 6" :key="i"/>
             </div>
         </div>
     </div>
 
-    <div class="flex md:h-[30vw] flex-col">
+    <div class="flex flex-col">
         <div class="flex w-full justify-center ">
             <div class="w-[95%] md:w-[90%] flex justify-between">
                 <span class="text-xl font-semibold text-black">
@@ -141,11 +144,14 @@
         </div>
     </div>
 
+    <Footer/>
+
     </div>
 </template>
 <script>
 import Navbar from "../components/layouts/Navbar.vue";
 import Banner from "../components/layouts/Banner.vue";
+import Footer from "../components/layouts/Footer.vue";
 import CardProduct from "../components/card/cardProduct.vue";
 import CardBlog from "../components/card/cardBlog.vue";
 import CardCategory from "../components/card/cardCategory.vue";
@@ -156,6 +162,7 @@ export default {
   components: {
     Navbar,
     Banner,
+    Footer,
     CardProduct,
     CardCategory,
     CardSmallSave,
