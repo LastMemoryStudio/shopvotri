@@ -29,7 +29,7 @@
         </div>
 
         <!-- HOT DEALS! GET OUR BEST PRICES -->
-        <div class="w-full flex justify-center py-8">
+        <div class="w-full flex justify-center mt-5">
             <div class="flex flex-col w-[95%] md:w-[90%]">
                 <div class="flex flex-col">
                     <div class="flex flex-col md:flex-row justify-between items-center">
@@ -88,15 +88,66 @@
         </div>
 
         <!-- live -->
-        <div>
-            
+        <div class="flex flex-col w-full mt-5">
+            <div class="flex w-full justify-center">
+                <div class="w-[95%] md:w-[90%] p-2 flex justify-between">
+                    <span class="text-xl font-semibold text-black">TOP SELLING PRODUCTS</span>
+                    <div class="hidden md:flex">
+                        <span class="text-xl font-normal text-blue-400 p-2">All Products</span>
+                        <span class="text-xl font-normal text-gray-400 p-2">Smartphone</span>
+                        <span class="text-xl font-normal text-gray-400 p-2">iPad</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-full justify-center my-5">
+                <div class="w-[95%] md:w-[90%] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <CardProduct v-for="i in 6" :key="i"/>
+                </div>
+            </div>
         </div>
+
+        <div class="my-4">
+            <div class="flex bg-blue-500 py-8">
+            </div>
+        </div>
+
+    <div class="flex  md:h-[30vw] flex-col mt-5">
+        <div class="flex w-full justify-center ">
+            <div class="w-[95%] md:w-[90%] p-2 flex justify-between ">
+                <span class="text-xl  font-semibold	 text-black">RECOMMENDED FOR YOU</span>
+            </div>
+        </div>
+        <div class="flex md:h-[30vw] w-full justify-center py-8  ">
+            <div class="w-[95%] md:w-[90%] grid grid-cols-2 md:grid-cols-6 gap-4">
+                <CardProduct v-for="i in 6" :key="i"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex md:h-[30vw] flex-col">
+        <div class="flex w-full justify-center ">
+            <div class="w-[95%] md:w-[90%] flex justify-between">
+                <span class="text-xl font-semibold text-black">
+                    BLOG POSTS
+                </span>
+            </div>
+        </div>
+        <div class="flex w-full justify-center">
+            <div class="w-[95%] md:w-[90%] py-8 ">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <CardBlog v-for="i in 4" :key="i" />
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 </template>
 <script>
 import Navbar from "../components/layouts/Navbar.vue";
 import Banner from "../components/layouts/Banner.vue";
 import CardProduct from "../components/card/cardProduct.vue";
+import CardBlog from "../components/card/cardBlog.vue";
 import CardCategory from "../components/card/cardCategory.vue";
 import CardSmallSave from "../components/card/cardSmallSave.vue";
 import CardBigSave from "../components/card/cardBigSave.vue";
@@ -109,6 +160,7 @@ export default {
     CardCategory,
     CardSmallSave,
     CardBigSave,
+    CardBlog
   },
 };
 </script>

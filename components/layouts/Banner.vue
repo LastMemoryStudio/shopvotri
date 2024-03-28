@@ -12,12 +12,8 @@
           mousewheel="true"
           css-mode="true"
         >
-          <div
-            class="w-full bg-center relative bg-cover rounded-md md:rounded-2xl h-[30vh] md:h-[60vh]"
-            style="
-              background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/banner_9_3.jpg?v=1690362130&width=2000);
-            "
-          >
+          <div class="w-full bg-center relative bg-cover rounded-md md:rounded-2xl h-[30vh] md:h-[60vh]"
+          :style="{ backgroundImage: 'url(https://demo-uminex.myshopify.com/cdn/shop/files/banner_9_3.jpg?v=1690362130&width=2000)' }">
             <div
               class="flex flex-col absolute top-8 left-8 md:top-10 md:left-20 md:h-[50%]"
             >
