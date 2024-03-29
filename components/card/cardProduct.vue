@@ -25,9 +25,9 @@
       <div class="w-full flex justify-center items-center bottom-button">
         <button
           type="button"
-          class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 w-11/12"
+          class="focus:outline-none text-white bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 w-11/12"
         >
-          Yellow
+          Thêm vào giỏ hàng
         </button>
       </div>
       <!-- <div class="flex items-center text-red-500 text-sm">

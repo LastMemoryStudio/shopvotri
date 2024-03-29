@@ -28,7 +28,7 @@
                   </div>
                   <div class="flex">
                     <div class="text-css">
-                      <span class="first text-2xl text-5xl mr-2"> 25MP </span>
+                      <span class="first text-5xl mr-2"> 25MP </span>
                     </div>
                     <div class="text-3xl md:text-5xl text-white">
                       Pro Camera

@@ -8,7 +8,7 @@
     >
       <img class="" src="" alt="" />
       <div class="flex flex-col py-6 px-9 text-white">
-        <a class="text-xl font-medium" href=""> OLED/Smart TVs </a>
+        <a class="text-md font-medium cursor-pointer" href=""> OLED/Smart TVs </a>
         <span class="text-lg"> 15 Products </span>
       </div>
     </div>

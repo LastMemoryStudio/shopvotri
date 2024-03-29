@@ -3,7 +3,7 @@
     class="md:h-[15vw] bg-center bg-cover rounded-xl"
     style="background-image: url(https://demo-uminex.myshopify.com/cdn/shop/files/8_4_900x.jpg?v=1690278646);"
   >
-    <div class="justify-center flex mr-[10vw] py-[3vw]">
+    <div class="flex justify-center md:justify-start pl-10 items-center w-full h-full">
       <div class="flex flex-col rounded-md md:rounded-xl">
         <div class="flex-flex-col font-medium">
           <div class="text-white text-2xl">Bestseller</div>

@@ -25,7 +25,7 @@ export default {
       { name: 'google-site-verification', content: 'RFYnJhdOKuoiyNBCYZ8zhOEWSxaOTfbSwp2-3WjkVFw' },
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' },
       { rel: 'icon', type: 'image/png', href: 'https://ik.imagekit.io/0lpnflx37/LastMemory/Logo/LoverCounter/log.png?updatedAt=1697546936452' },
       { rel: 'canonical', href: 'https://www.loveny.vn' },
@@ -53,6 +53,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
     '@nuxtjs/axios',
+    // '@nuxt-vite',
     // 'nuxt-swiper'
   ],
 
