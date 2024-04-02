@@ -53,9 +53,14 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
     '@nuxtjs/axios',
+    '@nuxtjs/vuetify'
     // '@nuxt-vite',
     // 'nuxt-swiper'
   ],
+
+  vuetify: {
+    /* module options */
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

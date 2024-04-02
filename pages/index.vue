@@ -4,26 +4,46 @@
         <Banner/>
 
         <!-- HOT TRENDING PRODUCTS -->
-        <div class="flex flex-col mt-5">
-            <div class="flex w-full justify-center">
-                <div class="w-full md:w-[90%] p-2 flex justify-between items-center">
-                    <span class="text-md md:text-xl font-semibold text-black">HOT TRENDING PRODUCTS</span>
-                    <div class="text-md md:text-md font-normal text-gray-500 flex items-center cursor-pointer">
-                        <p>Xem thêm</p>
-                        <i class="fa-solid fa-caret-right ml-1"></i>
+
+        <div class="flex justify-center">
+            <div class="w-[90%] mt-5">
+                <div class="flex justify-between">
+                    <div class="text-md md:text-xl font-semibold text-black">HOT TRENDING PRODUCTS</div>
+                    <a class="text-sm font-normal text-gray-500 cursor-pointer">
+                        <div class="flex ">
+                            <p>Xem thêm</p>
+                            <i class="fa-solid fa-caret-right ml-1 self-center mt-1"></i>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex w-full justify-center my-5">
+                    <div class="px-2 md:w-[90%] grid grid-cols-2 md:grid-cols-6 gap-4">
+                        <CardProduct v-for="i in 6" :key="i"/>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- <div class="flex flex-col justify-center items-center mt-5">
+            
+            <div class="w-full flex justify-between">
+                <div class="text-md md:text-xl font-semibold text-black">HOT TRENDING PRODUCTS</div>
+                <div class="text-sm font-normal text-gray-500 flex items-center cursor-pointer">
+                    <p>Xem thêm</p>
+                    <i class="fa-solid fa-caret-right ml-1"></i>
+                </div>
+            </div>
+            
             <div class="flex w-full justify-center my-5">
                 <div class="px-2 md:w-[90%] grid grid-cols-2 md:grid-cols-6 gap-4">
                     <CardProduct v-for="i in 6" :key="i"/>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- POPULAR CATEGORIES -->
-        <div class="w-full flex justify-center mt-5">
-            <div class="w-[95%] md:w-[90%] md:h-[10vw]">
+        <div class="w-full flex justify-center mt-5 w-[95%] md:w-[90%]">
+            <div class="">
                 <span class="text-md md:text-xl font-semibold text-black">POPULAR CATEGORIES</span>
                 <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
                     <CardCategory v-for="i in 6" :key="i"/>
